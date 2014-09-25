@@ -1,0 +1,20 @@
+{
+	"name": "ssi-parser",
+	"description": "Node's SSI parser",
+	"version": "0.0.0",
+	"author":{
+		"name": "pangnate",
+		"email": "pangnate@gmail.com"
+	},
+	"keywords": [
+		"ssi"
+	],
+	"main": "index.js",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pangnate/ssi-parser.git"
+	}
+}
