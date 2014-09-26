@@ -1,0 +1,45 @@
+# SSI syntax
+
+-----
+
+### include
+
+将文本文件的内容直接插入到文档页面中
+
+* <!--#include file="file.html"-->
+* <!--#include virtual="/path/file.html"-->
+
+### set
+
+可给变量赋值
+
+* <!--#set var="变量名" value="变量值"-->
+
+### echo
+
+将环境变量插入到页面中
+
+* <!--#echo var="变量名"-->
+
+### 内置环境变量
+
+	DATE_LOCAL  显示今天是星期几,几月,时区
+	DOCUMENT_NAME  本文档名称
+	REMOTE_ADDR  你的IP地址
+
+### printenv
+
+示当前存在于WEB服务器环境中的所有环境变量
+
+* <!--#printenv-->
+
+### 流程控制
+
+<!--#if expr="test_condition" -->
+<!--#elif expr="test_condition" -->
+<!--#else -->
+<!--#endif -->
+
+
+
+
